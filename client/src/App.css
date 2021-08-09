@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.label {
+  margin: 100px 0px 70px 10px;
+  position: absolute;
+}
+
+.box {
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.red {
+  background-color: rgb(250, 124, 74);
+}
+
+.blue {
+  background-color: rgb(111, 196, 236);
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.btn-choose {
+  margin-right: 10px !important;
+}
+.upload-message {
+  font-weight: bold;
+  color: #63a84e;
+}
+.upload-message.error {
+  color: #da4148;
+}
+.btn-upload {
+  position: absolute !important;
+  right: 10px;
+}

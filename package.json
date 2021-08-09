@@ -1,0 +1,26 @@
+{
+	"name": "bmern_ts",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"dependencies": {
+		"concurrently": "^6.2.0"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"server": "npm start --prefix server",
+		"test": "mocha || true ",
+		"client": "npm start --prefix client",
+		"dev": "concurrently \"npm run server\" \"npm run client\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/bunnygarg11/bmern_ts.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/bunnygarg11/bmern_ts/issues"
+	},
+	"homepage": "https://github.com/bunnygarg11/bmern_ts#readme"
+}
